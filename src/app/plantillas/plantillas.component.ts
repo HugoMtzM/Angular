@@ -16,4 +16,10 @@ export class PlantillasComponent{
 		this.administrador = true;
 
 	}
+
+	cambiar(value){
+
+		this.administrador = value;
+
+	}
 }

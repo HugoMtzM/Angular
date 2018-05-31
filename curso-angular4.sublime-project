@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "C:\\wamp\\www\\curso-angular4-backend"
 		}
 	]
 }
