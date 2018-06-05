@@ -10,6 +10,14 @@ export class PlantillasComponent{
 
 	public titulo;
 	public administrador;
+	public dato_externo = "Hugo Martinez";
+	public identity = {
+
+		id: 1,
+		web: 'Hugo.com',
+		tematica:'Desarrollo web'
+	};
+
 
 	constructor(){
 		this.titulo = "Plantillas ngTemplate en Angular";
@@ -21,5 +29,13 @@ export class PlantillasComponent{
 
 		this.administrador = value;
 
+	}
+
+
+	public datos_del_hijo;
+	recibirDatos(event){
+
+		console.log(event);
+		this.datos_del_hijo = event;
 	}
 }
